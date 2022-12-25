@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: darkred;
+    background-position: top;
+    background-size: 22%;
+    background-attachment: fixed;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+
+.an{
+    color: snow;
+}
+
+.navu{
+    list-style: none;
+}
+
+.navu:hover{
+    background-color: teal;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.nb1:hover{
+    background-color: brown;
+}
+
+.nb2:hover{
+    background-color: brown;
+}
+
+.nb3:hover{
+    background-color: brown;
+}
+
+.nb4:hover{
+    background-color: brown;
+}
+
+.nb5:hover{
+    background-color: brown;
+}
+
+.l1{
+    display: inline;
+}
+
+a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: snow;
+    text-decoration: none;
+}
+
+.navu, .an, a, .sing{
+    display: inline-block;
+    padding: 0px 25px;
+    
+}
+
+.navu, .an, li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.navu, li, a:hover{
+    color: deepskyblue;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
+
+/* header end */
+/* main */
+
+body{
+    background-image: url(../style/image/backu.jpg);
+}
+
+main{
+    margin: -15px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.ulid{
+    border: 5px silver solid;
+    padding: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-image: url(./image/bbacku.jpg);
+    background-position: center;
+    border-radius: 50px 50px 50px 50px;
+    color: black;
+    
+}
+
+.npd{
+    border: 2px black solid;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+}
+
+.pd{
+    border: 5px solid black;
+
+}
+
+.ah1{
+
+}
+
+#bce{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+
+
+.h4mt{
+    color: black;
+}
+
+.cr{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+} 
+
+.nt{
+    background-color: white;
+    width: 90%;
+    max-width: 450px;
+    background-position: center;
+    padding: 100px 60px 70px;
+    text-align: center;
+}
+
+.nt h1{
+    margin-bottom: 50px;
+    color: red;
+    position: relative;
+}
+
+.nt h1:hover{
+    color: cadetblue;
+}
+
+.ip{
+    margin: 15px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid silver;
+    border-radius: 50px 50px;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+.bsbs{
+    background-color: brown;
+    color: white;
+    border: 0px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 20px;
+}
+
+.bsbs:hover{
+    background-color: darkcyan;
+    color: black;
+}
+
+.plp{
+    color: black;
+}
+
+.alp{
+    color: aqua;
+    outline: none;
+}
+
+.alp:hover{
+    color: black;
+    background-color: aqua;
+}
+
+/* main end */
+/* footer */
+footer{
+    background-color: black;
+    background-position: bottom;
+    background-size: 20%;
+    border-top: solid 5px steelblue;
+    background-attachment: fixed;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    color: white;
+    
+}
+
+.divu1, .divu2 {
+    display: inline;
+}
+
+.rb:hover{
+    background-color: red;
+}
+
+.fb:hover{
+    background-color: blue;
+}
+
+.bh:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
